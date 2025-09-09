@@ -1,0 +1,49 @@
+{
+  "routes": [
+    {
+      "id": "tromso",
+      "name": "3 Days in Tromsø",
+      "region": "Norway",
+      "length": 3,
+      "days": [
+        { "title": "Day 1: Arrival & City Walk", "morning": "Harbour + Arctic Cathedral", "afternoon": "Fjellheisen cable car", "evening": "Aurora minibus chase" },
+        { "title": "Day 2: Arctic Adventures", "morning": "Dog sledding", "afternoon": "Polaria center", "evening": "Sauna & Arctic dip" },
+        { "title": "Day 3: Sami Culture", "morning": "Reindeer sled + Sami camp", "afternoon": "Café & souvenirs", "evening": "Depart / extra night" }
+      ],
+      "optionalDays": [
+        { "title": "Extra Day: Fjords & Wildlife", "morning": "Whale watching (seasonal)", "afternoon": "Coastline walk", "evening": "Local seafood dinner" }
+      ]
+    },
+    {
+      "id": "oslo-flam-bergen",
+      "name": "Oslo–Flåm–Bergen Railway Route",
+      "region": "Norway",
+      "length": 3,
+      "days": [
+        { "title": "Day 1: Oslo", "morning": "Opera House & Munch", "afternoon": "Karl Johans gate", "evening": "Aker Brygge dinner" },
+        { "title": "Day 2: Oslo → Flåm", "morning": "Train via Myrdal (Flåmsbana)", "afternoon": "Fjord cruise", "evening": "Overnight in Flåm" },
+        { "title": "Day 3: Flåm → Bergen", "morning": "Bus/train to Bergen", "afternoon": "Bryggen Wharf", "evening": "Seafood market" }
+      ],
+      "optionalDays": [
+        { "title": "Extra Day: Bergen Mountains", "morning": "Floibanen funicular", "afternoon": "Mount Fløyen hike", "evening": "Bryggen café" }
+      ]
+    },
+    {
+      "id": "lapland",
+      "name": "Lapland with Kids",
+      "region": "Finland",
+      "minDays": 3,
+      "maxDays": 6,
+      "days": [
+        { "title": "Day 1: Rovaniemi", "morning": "Santa Claus Village", "afternoon": "Ounasvaara snow fun", "evening": "Aurora campfire" },
+        { "title": "Day 2: Wildlife", "morning": "Ranua Zoo", "afternoon": "Short husky safari", "evening": "Hotel play area" },
+        { "title": "Day 3: Culture", "morning": "Arktikum Museum", "afternoon": "Skating / indoor play", "evening": "Farewell dinner" }
+      ],
+      "optionalDays": [
+        { "title": "Extra Day: Snow Village", "morning": "Snow Village visit", "afternoon": "Ice bar experience", "evening": "Glass igloo (budget permitting)" },
+        { "title": "Extra Day: Ski & Spa", "morning": "Family ski lesson", "afternoon": "Spa & pool", "evening": "Relaxed dinner" },
+        { "title": "Extra Day: Reindeer Farm", "morning": "Farm visit", "afternoon": "Hand-feeding & crafts", "evening": "Story time" }
+      ]
+    }
+  ]
+}
