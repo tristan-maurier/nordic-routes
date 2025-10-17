@@ -22,9 +22,15 @@
       padding: 2rem;
     }
     .logo {
-      width: 140px;
-      margin-bottom: 1rem;
-      filter: drop-shadow(0 2px 4px rgba(0,0,0,0.1));
+  width: 250px;         /* increase this number for larger size */
+  height: auto;
+  margin-bottom: 1.5rem;
+  transition: transform 0.3s ease;
+}
+.logo:hover {
+  transform: scale(1.05);
+}
+
     }
     h1 {
       font-size: 2.8rem;
